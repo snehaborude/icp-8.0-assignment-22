@@ -8,42 +8,68 @@
 <body>
     <script>
         const result=165
-        document.write("<h1><b><i>ASSIGNMENT OPERATORS:</i></b><h1/>");
+        document.write("<h2><b><i>ASSIGNMENT OPERATORS:</i></b></h2>");
         document.write( "<br/><b><i>1]equals to(=):</i><b>");
         document.write(result);
 
             let value = 111;
-            document.write("<br/><b><i>2]plus equals to (+=) :</i></b>");
+            document.write("<hr/><br/><b><i>2]plus equals to (+=) :</i></b>");
       document.write("Current value:" + value);
 value += 222;
 
 document.write(" New value:" + value);
 let balance = 5;
-            document.write("<br/><b><i>3]minus equals to (-=) :</i></b>");
+            document.write("<hr/><br/><b><i>3]minus equals to (-=) :</i></b>");
       document.write("Current balance:" + balance);
 balance -= 1;
 document.write(" New balance:" + balance);
             
 let age = 21;
-            document.write("<br/><b><i>4]multiplication equals to (*=) :</i></b>");
+            document.write("<hr/><br/><b><i>4]multiplication equals to (*=) :</i></b>");
       document.write("Current age:" + age);
 age *= 6;
 document.write(" New age:" + age);
 let cars = 88;
-            document.write("<br/><b><i>5]division equals to (/=) :</i></b>");
+            document.write("<hr/><br/><b><i>5]division equals to (/=) :</i></b>");
       document.write("Current cars:" + cars);
 cars /= 4;
 document.write(" New cars:" + cars);
 let pen= 100;
-            document.write("<br/><b><i>6]division equals to (%=) :</i></b>");
+            document.write("<hr/><br/><b><i>6]division equals to (%=) :</i></b>");
       document.write("Current pen:" + pen);
 pen %= 50;
 document.write(" New pen:" + pen);
-                      
+document.write("<hr/><hr/><br/><h2><b><i>INCREMENT  & DECREMENT OPERATORS:</i></b></h2>");            
           
-
-
-        
+document.write("<hr/><br/><b><i>1]pre increment :</i></b>");
+let num = 44;
+      let ans = ++num;
+      document.write("<br/>")
+      document.write(ans);
+      document.write("<br/>");
+      document.write(num);
+      document.write("<hr/><br/><b><i>2]post increment :</i></b>");
+      let marks=22
+      let credit = marks++;
+      document.write("<br/>")
+      document.write(credit);
+      document.write("<br/>");
+      document.write(marks);
+      document.write("<hr/><br/><b><i>3]pre decrement :</i></b>");
+let record = 55;
+      let  digit= --record;
+      document.write("<br/>")
+      document.write(digit);
+      document.write("<br/>");
+      document.write(record);
+      document.write("<hr/><br/><b><i>4]post decrement :</i></b>");
+let no= 66;
+      let yes = no--;
+      document.write("<br/>")
+      document.write(yes);
+      document.write("<br/>");
+      document.write(no);
+                  
  </script>
 </body>
 </html>
